@@ -4,9 +4,8 @@
  * and dynamic surge pricing.
  */
 
-package strategy;
-
 import java.util.Objects;
+
 
 enum RideType {
     ECONOMY, PREMIUM, XL

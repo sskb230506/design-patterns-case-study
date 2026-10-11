@@ -6,9 +6,8 @@
  * 3. AuditLogSubscriber (Immutable audit record)
  */
 
-package observer;
-
 import java.util.*;
+
 
 class BookingCancelledEvent {
     private final String bookingId;

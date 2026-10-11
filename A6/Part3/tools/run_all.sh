@@ -34,9 +34,10 @@ if command -v javac >/dev/null 2>&1; then
     javac A6/Part3/state/java/DriverState.java
     javac A6/Part3/strategy/java/PricingStrategy.java
     javac A6/Part3/observer/java/RideCancellationObserver.java
-    java -cp A6/Part3/state/java state.DriverState
-    java -cp A6/Part3/strategy/java strategy.PricingStrategy
-    java -cp A6/Part3/observer/java observer.RideCancellationObserver
+    java -cp A6/Part3/state/java DriverState
+    java -cp A6/Part3/strategy/java PricingStrategy
+    java -cp A6/Part3/observer/java RideCancellationObserver
+
 else
     echo "--> [SKIPPED] JDK (javac) not detected in PATH."
 fi

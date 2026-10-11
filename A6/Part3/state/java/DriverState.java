@@ -1,6 +1,5 @@
-package state;
-
 enum DriverStatus {
+
     PENDING, APPROVED, SUSPENDED, REJECTED
 }
 
