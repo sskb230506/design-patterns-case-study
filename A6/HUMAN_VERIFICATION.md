@@ -51,3 +51,11 @@ Every task, change scenario, and deliverable has satisfied the following verific
 - [x] C++ implementation provided in `A6/Part3/state/cpp/`, `strategy/cpp/`, `observer/cpp/` (C++17 compliant; GCC skipped in test runner)
 - [x] `cross-language-comparison.csv` generated under `A6/data/`
 - [x] `run_all.sh` runner script created under `A6/Part3/tools/`
+
+### LLM Evaluation Framework & Dataset
+- [x] `evaluation-dataset.jsonl` validated with 8 canonical tasks (`A6/tools/validate_dataset.py`: 8/8 valid, 0 errors, 0 warnings)
+- [x] Provenance strictly enforced: unbenchmarked records have `model_output: null` and `score: null` (anti-fabrication rule)
+- [x] Standardized evaluation rubric defined in `A6/data/evaluation-rubric.md` (0-5 scale across 5 dimensions)
+- [x] Comprehensive reference answers and grading criteria documented in `A6/data/reference-answers.md`
+- [x] Experimental protocol and fair comparison methodology established in `A6/data/evaluation-methodology.md`
+- [x] Part 1 & Part 2 LLM workflows and hallucination audits documented in `A6/Part1/llm/README.md` and `A6/Part2/llm/README.md`
